@@ -1,0 +1,52 @@
+{
+	"name": "@lz/form-render",
+	"version": "0.0.4",
+	"description": "通过 JSON Schema 生成标准 Form，常用于自定义搭建配置界面生成",
+	"license": "MIT",
+	"scripts": {
+		"dev": "father-build -w",
+		"build": "father-build",
+		"prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+		"test": "umi-test",
+		"test:coverage": "umi-test --coverage"
+	},
+	"main": "lib/index.js",
+	"module": "es/index.js",
+	"dependencies": {
+		"@emotion/react": "^11.4.1",
+		"@emotion/styled": "^11.3.0",
+		"@inovua/reactdatagrid-community": "^4.x",
+		"@mui/icons-material": "^5.0.4",
+		"@mui/lab": "^5.0.0-alpha.51",
+		"@mui/material": "^5.0.4",
+		"@mui/styles": "^5.0.1",
+		"@mui/x-data-grid": "5.0.0-beta.4",
+		"ace-builds": "^1.4.12",
+		"async-validator": "^3.5.1",
+		"color": "^3.1.2",
+		"lodash": "^4.17.21",
+		"lodash-es": "^4.17.21",
+		"moment": "^2.24.0",
+		"nanoid": "^3.1.20",
+		"rc-color-picker": "^1.2.6",
+		"rc-tree": "^5.2.2",
+		"react-ace": "^9.4.4",
+		"react-dnd": "^14.0.4",
+		"react-dnd-html5-backend": "^14.0.2",
+		"react-window": "^1.8.6",
+		"virtualizedtableforantd4": "^1.1.2"
+	},
+	"peerDependencies": {
+		"react": ">=16.8.0",
+		"react-dom": ">=16.8.0"
+	},
+	"keywords": [
+		"Form",
+		"FormRender",
+		"Render",
+		"XRender",
+		"React",
+		"Json Schema",
+		"Ant Design"
+	]
+}
